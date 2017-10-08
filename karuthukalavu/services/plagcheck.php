@@ -24,7 +24,11 @@ switch($action){
 		} else {
 			
 			$text = $_POST ["qtext"];
-			$type = $_POST ["ctype"];
+			
+			if(isset($_POST ["ctype"]))
+				$type = $_POST ["ctype"];
+			else
+				$type = "thodar_thedal";
 			
 			$pc = new PlagCheck ($result);
 			dump ("Checking...");

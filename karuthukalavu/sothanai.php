@@ -10,10 +10,6 @@
 				<div class="field">
 					<label>சோதிக்க வேண்டிய உரை:</label>
 					<textarea id='qtext' name="qtext"></textarea>
-					<label><input type="radio" name="ctype" value="sol_thedal"/><span>சொல் தேடல்</span></label>
-					<label><input type="radio" name="ctype" value="thodar_thedal" checked><span>சொற்றொடர் தேடல் (இயல்பான)</span></label>
-					<!--<label><input type="radio" name="ctype" value="inai_thedal"><span>இணைத்தொடர் தேடல்</span></label>-->
-					<!-- <input type="file" id="qfile" name="qfile" disabled="disabled" style="display:none;" /> -->
 				</div>
 				<div class="field btn">
 					<input id="btnCheck" type="button" class="button" value="சோதி" /> 
